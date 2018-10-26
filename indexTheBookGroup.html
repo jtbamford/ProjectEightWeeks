@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+<script type="text/javascript">
+
+function submit() {
+	window.alert("You have now signed up");
+}
+
+
+</script>
+</head>
+
+<body>
+
+<div onmousemove="myMoveFunction()">
+  <p id="demo"> Search: </p>
+</div>
+
+
+<h1 align="center">The Book Group</h1>
+
+<p align="center">This is The Book Group. A place where you can record, share and update
+your reading history. Our aim is to allow users to share their reading experiences and gain inspiration
+for future reads from fellow book lovers. Just enter a name below to view their personal Library or type your name into
+into the sign up box to start your own! </p>
+
+</body>
+
+<form>
+ <div align="center"> 
+	Search: <br>
+  <input type="text"
+  	placeholder="Search.."
+        alt="Search for library user"
+	/> <br> <br>
+	
+	Or <br> <br>
+
+	Sign Up: <br> 
+  <input type="text"
+	placeholder="Enter name..."
+	alt="Enter name to sign up"
+/> <br> <br>
+
+<script>
+function myMoveFunction() {
+    document.getElementById("demo").innerHTML = "Search";
+}
+</script>
+
+<input type="button" onclick="submit()" value="Sign In"/>
+
+</div>
+</form>
+
+</html>

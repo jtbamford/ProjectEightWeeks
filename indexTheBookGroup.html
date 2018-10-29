@@ -1,54 +1,61 @@
 ﻿<!DOCTYPE html>
 <html>
+
+<!-- this defines the colour of the text
+<style>
+body {
+        color: red;
+}
+</style>
+-->
+
 <head>
 
 <script type="text/javascript">
-
-function submit() {
-	window.alert("You have now signed up");
-}
-
 
 </script>
 </head>
 
 <body>
 
-<div onmousemove="myMoveFunction()">
-  <p id="demo"> Search: </p>
-</div>
-
-
 <h1 align="center">The Book Group</h1>
 
-<p align="center">This is The Book Group. A place where you can record, share and update
+<div style="   word-wrap: break-word; width:720px; margin: auto">
+
+<p align="center"> 
+<font size="+1">This is The Book Group. A place where you can record, share and update
 your reading history. Our aim is to allow users to share their reading experiences and gain inspiration
-for future reads from fellow book lovers. Just enter a name below to view their personal Library or type your name into
-into the sign up box to start your own! </p>
+for future reads from fellow book lovers. Just enter a name below to view a personal Library or type your
+name into the sign up box to start your own! 
+</font>
+</p>
+
+</div>
+
+<br> <br>
 
 </body>
 
 <form>
- <div align="center"> 
+ <div align="center">
+<font size="+1"> 
 	Search: <br>
+</font> 
   <input type="text"
   	placeholder="Search.."
         alt="Search for library user"
 	/> <br> <br>
 	
+<font size="+1">
 	Or <br> <br>
 
-	Sign Up: <br> 
+	Sign Up: <br>
+</font> 
   <input type="text"
 	placeholder="Enter name..."
 	alt="Enter name to sign up"
-/> <br> <br>
+/> <br> <br> <br>
 
-<script>
-function myMoveFunction() {
-    document.getElementById("demo").innerHTML = "Search";
-}
-</script>
 
 <input type="button" onclick="submit()" value="Sign In"/>
 
